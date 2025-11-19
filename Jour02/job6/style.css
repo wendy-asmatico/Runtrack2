@@ -1,0 +1,19 @@
+#secret {
+      visibility: hidden; /* ou display: none; si tu préfères */
+      background: #6C63FF;
+      color: white;
+      font-size: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      width: 300px;
+      margin: 50px auto;
+      transition: all 0.4s ease;
+    }
+
+    /* Quand on le rend visible */
+    #secret.visible {
+      visibility: visible;
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #6C63FF;
+    }
