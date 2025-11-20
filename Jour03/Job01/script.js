@@ -17,3 +17,4 @@ fermer.addEventListener("click", (event) => {
     fermer.style.visibility = "hidden";
     button.style.visibility = "visible";
 });
+
