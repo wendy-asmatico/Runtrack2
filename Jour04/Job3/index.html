@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de tri</title>
+</head>
+<body>
+    <h2>Formulaire de tri</h2>
+    <form id="triForm">
+        <label for="id">ID :</label>
+        <input type="text" id="id" name="id"><br><br>
+
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom"><br><br>
+
+        <label for="type">Type :</label>
+        <select id="type" name="type">
+            <option value="">--Sélectionnez un type--</option>
+            <option value="Water">Eau</option>
+            <option value="Fire">Feu</option>
+            <option value="Grass">Plante</option>
+            <option value="Normal">Normal</option>
+            <option value="Flying">Vol</option>
+            <option value="Bug">Insecte</option>
+            <option value="Poison">Poison</option>
+            <option value="Electric">Electrique</option>
+            <option value="Fairy">Fée</option>
+        </select><br><br>
+
+        <input type="button" value="Filtrer">
+    </form>
+
+        <div id="resultats"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
