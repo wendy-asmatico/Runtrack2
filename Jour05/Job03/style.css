@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.section {
+    background-color: #88c1d0;
+    min-width: 25%;
+    height: 40vh;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
