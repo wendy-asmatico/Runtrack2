@@ -14,7 +14,7 @@ function handleMobile(e) {
 
 function handleTablet(e) {
     if (e.matches) {
-        body.style.flexDirection = "row wrap";
+        body.style.flexFlow = "row wrap";
     }
 }
 
