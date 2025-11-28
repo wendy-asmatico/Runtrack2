@@ -78,8 +78,8 @@
       </div>
 
       <div class="col-12 col-lg-3">
-        <div class="list-group shadow-sm">
-          <a class="list-group-item">Limbes</a>
+        <div id="liste" class="list-group shadow-sm">
+          <a class="list-group-item active">Limbes</a>
           <a class="list-group-item">Luxure</a>
           <a class="list-group-item">Gourmandise</a>
           <a class="list-group-item">Avarice</a>
@@ -93,14 +93,22 @@
       </div>
     </div>
 
-    <div class="mt-5">
-      <p class="text-end fw-bold">Installation de AI 9000</p>
-      <div class="progress">
-        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:75%"></div>
-      </div>
+<div class="mt-5">
+  <p class="text-end fw-bold">Installation de AI 9000</p>
+  <div class="d-flex align-items-center mx-auto w-75">
+    <button id="decrease" class="btn btn-sm me-2">&#8810;</button>
+
+  <div class="progress flex-grow-1">
+      <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" 
+           style="width: 75%"></div>
     </div>
 
-    <div class="row mt-5 g-4 mb-4">
+    <button id="increase" class="btn btn-sm ms-2">&#8811;</button>
+  </div>
+</div>
+    </div>
+
+    <div class="row mt-5 g-4 mb-4 mx-auto w-75">
       <div class="col-md-6">
         <h5>Recevez votre copie gratuite d'internet 2 !</h5>
         <input class="form-control mb-2" placeholder="Login">
