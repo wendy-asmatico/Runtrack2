@@ -100,7 +100,7 @@
 
   <div class="progress flex-grow-1">
       <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated bg-warning" 
-           style="width: 75%"></div>
+          style="width: 75%"></div>
     </div>
 
     <button id="increase" class="btn btn-sm ms-2">&#8811;</button>
@@ -109,30 +109,34 @@
     </div>
 
     <div class="row mt-5 g-4 mb-4 mx-auto w-75">
-      <div class="col-md-6">
-        <h5>Recevez votre copie gratuite d'internet 2 !</h5>
-        <input class="form-control mb-2" placeholder="Login">
-        <div class="input-group mb-2">
-          <input type="password" class="form-control" placeholder="Mot de passe">
-          <span class="input-group-text">@example.com</span>
-        </div>
-        <input class="form-control mb-2" placeholder="DogeCoin">
-        <input class="form-control" value="https://133t.lptf/dkwb/berlusconimkt/">
-      </div>
+  <div class="col-md-6">
+    <h5>Recevez votre copie gratuite d'internet 2 !</h5>
+    <input class="form-control mb-2" placeholder="Login">
 
-      <div class="col-md-6">
-        <label>Email address</label>
-        <input class="form-control mb-2">
-        <label>Password</label>
-        <input type="password" class="form-control mb-2">
-        <div class="form-check mb-2">
-          <input class="form-check-input" type="checkbox">
-          <label class="form-check-label">Check me out</label>
-        </div>
-        <button class="btn btn-primary">Submit</button>
-      </div>
+    <div class="input-group mb-2">
+      <input type="password" class="form-control" placeholder="Mot de passe secondaire">
+      <span class="input-group-text">@example.com</span>
     </div>
+
+    <input class="form-control mb-2" placeholder="DogeCoin">
+    <input class="form-control" value="https://133t.lptf/dkwb/berlusconimkt/">
   </div>
+
+  <div class="col-md-6">
+    <label>Email address</label>
+    <input id="email" class="form-control mb-2" type="email" placeholder="email@example.com">
+
+    <label>Password</label>
+    <input id="password" type="password" class="form-control mb-2" placeholder="Mot de passe">
+
+    <div class="form-check mb-2">
+      <input class="form-check-input" type="checkbox">
+      <label class="form-check-label">Check me out</label>
+    </div>
+
+    <button id="submitForm" class="btn btn-primary">Submit</button>
+  </div>
+</div>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

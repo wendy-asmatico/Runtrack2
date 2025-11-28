@@ -65,4 +65,30 @@ listeItems.forEach(item => {
   // Bouton -5%
   decreaseBtn.addEventListener('click', () => changeProgress(-5));
 
-  
+  // Formulaire : 
+
+const submitBtn = document.getElementById('submitForm');
+const emailInput = document.getElementById('email');
+const passwordInput = document.getElementById('password');
+
+submitBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+
+  const email = emailInput.value.trim();
+  const password = passwordInput.value.trim();
+
+  emailInput.classList.remove('is-valid', 'is-invalid');
+  passwordInput.classList.remove('is-valid', 'is-invalid');
+
+  if (email === '') {
+    emailInput.classList.add('is-invalid'); // 🔴 rouge
+  } else {
+    emailInput.classList.add('is-valid'); // 🟢 vert
+  }
+
+  if (password === '') {
+    passwordInput.classList.add('is-invalid'); // 🔴 rouge
+  } else {
+    passwordInput.classList.add('is-valid'); // 🟢 vert
+  }
+});
