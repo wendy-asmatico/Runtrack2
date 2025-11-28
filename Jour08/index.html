@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'inscription</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="blue darken-2">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo">Mon Site</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Inscription</a></li>
+                    <li><a href="index.html">Connexion</a></li>
+                    <li><a href="index.html">Rechercher</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+    <h4 class="center-align">Création de compte</h4>
+
+    <form>
+
+        <p>
+            <label>
+                <input name="civilite" type="radio" />
+                <span><i class="material-icons left">person</i>Homme</span>
+            </label>
+            <label>
+                <input name="civilite" type="radio" />
+                <span><i class="material-icons left">person</i>Femme</span>
+            </label>
+        </p>
+
+        <div class="input-field">
+            <i class="material-icons prefix">face</i>
+            <input type="text" id="prenom">
+            <label for="prenom">Prénom</label>
+        </div>
+
+        <div class="input-field">
+            <i class="material-icons prefix">face</i>
+            <input type="text" id="nom">
+            <label for="nom">Nom</label>
+        </div>
+
+        <div class="input-field">
+            <i class="material-icons prefix">home</i>
+            <input type="text" id="adresse">
+            <label for="adresse">Adresse</label>
+        </div>
+
+        <div class="input-field">
+            <i class="material-icons prefix">email</i>
+            <input type="email" id="email">
+            <label for="email">Email</label>
+        </div>
+
+        <div class="input-field">
+            <i class="material-icons prefix">lock</i>
+            <input type="password" id="password">
+            <label for="password">Mot de passe</label>
+        </div>
+
+        <div class="input-field">
+            <i class="material-icons prefix">lock</i>
+            <input type="password" id="confirm_password">
+            <label for="confirm_password">Confirmation du mot de passe</label>
+        </div>
+
+        <p>
+            <label>
+                <input type="checkbox" />
+                <span><i class="material-icons left">computer</i>Informatique</span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" />
+                <span><i class="material-icons left">flight</i>Voyages</span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" />
+                <span><i class="material-icons left">sports_soccer</i>Sport</span>
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" />
+                <span><i class="material-icons left">menu_book</i>Lecture</span>
+            </label>
+        </p>
+
+        <button class="btn waves-effect waves-light blue" type="submit">
+            Valider
+            <i class="material-icons right">send</i>
+        </button>
+
+    </form>
+</main>
+
+
+<footer class="page-footer blue darken-2">
+  <div class="container center-align">
+    
+    <div class="row">
+      <div class="col s3">
+        <a class="white-text" href="index.html">Accueil</a>
+      </div>
+      <div class="col s3">
+        <a class="white-text" href="index.html">Inscription</a>
+      </div>
+      <div class="col s3">
+        <a class="white-text" href="index.html">Connexion</a>
+      </div>
+      <div class="col s3">
+        <a class="white-text" href="index.html">Rechercher</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-copyright blue darken-3">
+    <div class="container center-align">
+      © 2025 - Mon Site
+    </div>
+  </div>
+</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+</html>
