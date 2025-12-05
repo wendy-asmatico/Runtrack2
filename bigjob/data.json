@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nom": "Paul Delman",
+      "email": "PaulDelman@laplateforme.io",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "nom": "Claire Redfield",
+      "email": "ClaireRedfield@laplateforme.io",
+      "password": "123456",
+      "role": "etudiant"
+    },
+    {
+      "id": 3,
+      "nom": "Chris Mod",
+      "email": "ChrisMod@laplateforme.io",
+      "password": "123456",
+      "role": "moderateur"
+    }
+  ],
+  "reservations": [
+    {
+      "id": 101,
+      "id_etudiant": 2,
+      "date": "2023-11-15",
+      "statut": "refuse"
+    },
+    {
+      "id": 102,
+      "id_etudiant": 2,
+      "date": "2023-12-20",
+      "statut": "attente"
+    }
+  ]
+}

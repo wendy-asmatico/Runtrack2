@@ -1,0 +1,35 @@
+
+body {
+    background-color: #f8f9fa; /* Gris très léger pour le fond */
+}
+
+#auth-section .card {
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #004d99, #007bff) !important; /* Dégradé bleu */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.tab-pane {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
